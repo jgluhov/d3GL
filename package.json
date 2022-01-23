@@ -1,0 +1,29 @@
+{
+  "name": "d3-gl",
+  "version": "1.0.0",
+  "description": "Using WebGL chart by using d3js library",
+  "scripts": {
+    "start": "npx parcel serve src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgluhov/d3GL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgluhov/d3GL/issues"
+  },
+  "homepage": "https://github.com/jgluhov/d3GL#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "@types/d3-scale": "^4.0.2",
+    "@types/d3-selection": "^3.0.2",
+    "parcel": "^2.2.1"
+  },
+  "dependencies": {
+    "d3-scale": "^4.0.2",
+    "d3-selection": "^3.0.0"
+  }
+}
